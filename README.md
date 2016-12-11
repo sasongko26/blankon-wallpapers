@@ -5,3 +5,5 @@ BlankOn is an Debian based distribution developed by Yayasan Penggerak Linux Ind
 It is one of many Indonesian distributions that includes a variety of software that is widely used by consumers in general, such as office programs, financial applications, Internet applications, drawing (both vector and bitmap), support for various multimedia file formats, as well as other interesting programs.
 
 Please go to http://blankonlinux.or.id to explore about BlankOn.
+
+You also can get more information about BlankOn in [Distrowatch](http://distrowatch.com/table.php?distribution=blankon) 
