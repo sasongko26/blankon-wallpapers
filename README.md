@@ -11,7 +11,7 @@ BlankOn has been supported 2 stable releases with codename:
 
 and the current active development named Tambora.
 
-This branch is for Tambora.
+This branch is for Suroboyo.
 
 Please go to http://blankonlinux.or.id to explore about BlankOn.
 
