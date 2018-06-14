@@ -2,7 +2,7 @@
 
 # Slackware build script for blankon-wallpapers
 
-# Copyright 2016  Sasongko Bawono <sasongko262@gmail.com>
+# Copyright 2016 - 2018  Sasongko Bawono <sasongko@merahputih.id>
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -23,7 +23,8 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=blankon-wallpapers
-VERSION=${VERSION:-0.10.12}
+VERSION=${VERSION:-0.10.22}
+DISTCODENAME=blankon-tambora
 BUILD=${BUILD:-1}
 TAG=${TAG:-_wono}
 
@@ -51,8 +52,8 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-mkdir -p $PKG/usr/share/backgrounds/blankon-tambora
-cp -a * $PKG/usr/share/backgrounds/blankon-tambora
+mkdir -p $PKG/usr/share/backgrounds/$DISTCODENAME
+cp -a * $PKG/usr/share/backgrounds/$DISTCODENAME
 
 cd $TMP/$PRGNAM-$VERSION
 
