@@ -9,8 +9,9 @@ BlankOn has been supported 3 stable releases with codename (from older to newest
 1. Rote
 2. Suroboyo
 3. Tambora
+4. Uluwatu
 
-This branch is for Tambora.
+This branch is for Uluwatu.
 
 Please go to http://blankonlinux.or.id to explore about BlankOn.
 
